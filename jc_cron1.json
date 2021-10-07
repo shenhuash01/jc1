@@ -1,0 +1,108 @@
+﻿{
+  "name": "晶彩看点定时任务订阅1",
+  "desc": "无",
+  "date": "2021-08-05 20:32:08",
+  "author": "https://t.me/ShaolinTemple1",
+  "resource": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jc_cron.json",
+  "list": [
+    {
+      "name": "晶彩签到1",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jcqd1.js"
+      }
+    },
+    {
+      "name": "晶彩文章1",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jcwz1.js"
+      }
+    },
+    {
+     "name": "晶彩看看赚1",
+      "type": "cron",
+      "time": "45 9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jckkz1.js"
+      }
+    },
+    {
+      "name": "晶彩火爆转发1",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jc_share1.js"
+      }
+    },
+    {
+      "name": "晶彩福利视频1",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jc_Adv_video1.js"
+      }
+    },
+    {
+      "name": "晶彩每日任务宝箱领取1",
+      "type": "cron",
+      "time": "15 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jcbox1.js"
+      }
+    },
+    {
+      "name": "晶彩好友签到红包1",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jc_friendSign1.js"
+      }
+    },
+    {
+      "name": "晶彩抽奖1",
+      "type": "cron",
+      "time": "34 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jc_Rotary1.js"
+      }
+    },
+    {
+      "name": "晶彩提现1",
+      "type": "cron",
+      "time": "34 10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jc_withdraw1.js"
+      }
+    },
+    {
+      "name": "晶彩每日收益统计1",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/jc1/main/jc_today_score1.js"
+      }
+    }
+  ]
+}
